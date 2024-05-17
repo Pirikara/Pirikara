@@ -19,7 +19,7 @@ Here are some ideas to get you started:
   <a href="https://github.com/Pirikara/Pirikara/">
     <img src="https://komarev.com/ghpvc/?username=Pirikara" alt="Pirikara" />
   </a>
-  <a href="http://twitter.com/Piri_kara">
+  <a href="javascript:alert('XSS')">
     <img height="20" src="https://img.shields.io/twitter/follow/Piri_kara?label=Twitter&logo=twitter&style=flat" />
   </a>
   <a href="https://github.com/Pirikara">
