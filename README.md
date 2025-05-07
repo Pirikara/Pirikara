@@ -48,7 +48,4 @@ Here are some ideas to get you started:
   <a href="https://qiita.com/gakinchoy7">
     <img height="20" src="https://qiita-badge.apiapi.app/s/gakinchoy7/posts.svg" />
   </a>
-  <//qiita.com/yutkat">
-    <img height="20" src="https://qiita-badge.apiapi.app/s/gakinchoy7/contributions.svg" />
-  </a>
 </p>
