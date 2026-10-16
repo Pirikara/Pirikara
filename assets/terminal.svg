@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="328" viewBox="0 0 960 328" role="img" aria-labelledby="title description">
+  <title id="title">Pirikara terminal</title>
+  <desc id="description">A terminal window introducing Tomoya Yamashita, a security engineer and bug bounty hunter in Japan.</desc>
+
+  <rect x="1" y="1" width="958" height="326" rx="18" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+  <path d="M19 1h922a18 18 0 0 1 18 18v40H1V19A18 18 0 0 1 19 1Z" fill="#161b22"/>
+  <path d="M1 59h958" stroke="#30363d"/>
+
+  <circle cx="31" cy="30" r="7" fill="#ff5f57"/>
+  <circle cx="55" cy="30" r="7" fill="#febc2e"/>
+  <circle cx="79" cy="30" r="7" fill="#28c840"/>
+  <text x="480" y="36" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" text-anchor="middle">pirikara@github: ~</text>
+
+  <text x="42" y="110" fill="#3fb950" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" font-weight="700">$</text>
+  <text x="68" y="110" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">whoami</text>
+
+  <text x="42" y="160" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="39" font-weight="700">Tomoya Yamashita</text>
+  <text x="44" y="194" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19">Security Engineer  /  Bug Bounty Hunter</text>
+
+  <path d="M42 215h876" stroke="#30363d"/>
+
+  <text x="42" y="255" fill="#3fb950" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19" font-weight="700">$</text>
+  <text x="68" y="255" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19">cat focus.txt</text>
+  <text x="44" y="291" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">vulnerability research  ·  application security  ·  security tooling</text>
+  <rect x="769" y="277" width="10" height="18" fill="#3fb950"/>
+</svg>

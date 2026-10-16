@@ -1,51 +1,25 @@
-### Hi there 👋
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Pirikara&theme=default)
-![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Pirikara&theme=default)
-![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Pirikara&theme=default)
-                
-<!--
-**fujiokayu/fujiokayu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-<!--
-**Pirikara/Pirikara** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
-<p align="left">
-  <a href="https://github.com/Pirikara/Pirikara/">
-    <img src="https://komarev.com/ghpvc/?username=Pirikara" alt="Pirikara" />
-  </a>
-  <a href="https://twitter.com/Piri_kara">
-    <img height="20" src="https://img.shields.io/twitter/follow/Piri_kara?label=Twitter&logo=twitter&style=flat" />
-  </a>
-  <a href="https://github.com/Pirikara">
-    <img height="20" src="https://img.shields.io/github/followers/Pirikara?label=follow&logo=github&style=flat" />
-  </a>
-  <a href="https://stackoverflow.com/users/13829308/pirikara">
-    <img height="20" src="https://img.shields.io/stackexchange/stackoverflow/r/13829308?label=StackOverflow&logo=stack-overflow&style=flat" />
-  </a>
-  <a href="https://qiita.com/gakinchoy7">
-    <img height="20" src="https://qiita-badge.apiapi.app/s/gakinchoy7/posts.svg" />
-  </a>
+<p align="center">
+  <img src="./assets/terminal.svg" alt="Terminal introduction: Tomoya Yamashita, security engineer and bug bounty hunter based in Japan" width="100%" />
 </p>
+
+### `$ cat ~/about.txt`
+
+I'm Tomoya Yamashita, a security engineer and bug bounty hunter based in Japan. I research vulnerabilities in web applications and open source software, build security tools, and disclose findings responsibly.
+
+日本を拠点に、Web アプリケーションや OSS の脆弱性調査とセキュリティツールの開発に取り組んでいます。
+
+### `$ ls ~/disclosures`
+
+- **Rack** — [CVE-2025-61919](https://github.com/advisories/GHSA-6xw4-3v39-52mm) · URL-encoded body parsing DoS
+- **Rails Active Storage** — [CVE-2026-33174](https://github.com/advisories/GHSA-r46p-8f7g-vvvg) · Range request DoS
+- **Puma** — [CVE-2026-47736](https://github.com/advisories/GHSA-qpgp-93vx-g8v8) · PROXY Protocol parser DoS
+- **Nextcloud** — [CVE-2026-45157](https://github.com/nextcloud/security-advisories/security/advisories/GHSA-45pj-p7x7-4mhc) · Temporary upload file access
+
+### `$ ls ~/projects`
+
+- **[vuln-chaser-core](https://github.com/Pirikara/vuln-chaser-core)** — a proof of concept that analyzes runtime traces with an LLM for vulnerability research.
+- **[caseforge](https://github.com/Pirikara/caseforge)** — generates and runs API test scenarios from OpenAPI specifications.
+
+### `$ cat ~/links.txt`
+
+[HackerOne](https://hackerone.com/pirikara) · [Qiita](https://qiita.com/gakinchoy7) · [X](https://x.com/Piri_kara) · [Stack Overflow](https://stackoverflow.com/users/13829308/pirikara)
