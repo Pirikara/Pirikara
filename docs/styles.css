@@ -90,7 +90,11 @@ h1, h2, p { margin-top: 0; }
 .welcome-block p { margin: 0; }
 .welcome-label { color: var(--accent); font-size: 11px; font-weight: 700; letter-spacing: .1em; }
 .welcome-block strong { color: var(--text); font-weight: 700; }
-.terminal-entry { margin: 0 0 19px; }
+.terminal-entry { margin: 0 0 19px; animation: terminal-entry-in .22s ease-out both; }
+@keyframes terminal-entry-in {
+  from { opacity: 0; transform: translateY(7px); }
+  to { opacity: 1; transform: translateY(0); }
+}
 .terminal-command { color: var(--text); overflow-wrap: anywhere; }
 .terminal-command .prompt { margin-right: 10px; color: var(--accent); }
 .terminal-response { margin: 5px 0 0 0; color: #c7d2c4; overflow-wrap: anywhere; }

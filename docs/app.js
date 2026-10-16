@@ -42,6 +42,17 @@
   let historyIndex = 0;
   let historyDraft = "";
   let cwd = "~";
+  const reducedMotion = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches ?? false;
+  let bootTimer;
+  let bootActive = true;
+  let lastBootValue = "";
+
+  const cancelBoot = (clearTypedCommand = false) => {
+    if (!bootActive) return;
+    bootActive = false;
+    clearTimeout(bootTimer);
+    if (clearTypedCommand && input.value === lastBootValue) input.value = "";
+  };
 
   const node = (tag, className, text) => {
     const element = document.createElement(tag);
@@ -242,9 +253,13 @@
 
   form.addEventListener("submit", (event) => {
     event.preventDefault();
+    cancelBoot(true);
     execute(input.value);
     input.focus();
   });
+
+  input.addEventListener("focus", () => cancelBoot(true));
+  input.addEventListener("input", () => cancelBoot());
 
   input.addEventListener("keydown", (event) => {
     if (event.key === "ArrowUp") {
@@ -287,12 +302,33 @@
   document.addEventListener("click", (event) => {
     const button = event.target.closest("[data-command]");
     if (!button) return;
+    cancelBoot(true);
     execute(button.dataset.command);
-    screen.scrollIntoView({ behavior: "smooth", block: "center" });
+    screen.scrollIntoView({ behavior: reducedMotion ? "auto" : "smooth", block: "center" });
     input.focus({ preventScroll: true });
   });
 
   document.getElementById("terminal-window").addEventListener("click", (event) => {
     if (!event.target.closest("a, button, input")) input.focus();
   });
+
+  if (reducedMotion) {
+    bootActive = false;
+    execute("whoami", { remember: false });
+  } else {
+    const command = "whoami";
+    let characters = 0;
+    const typeNext = () => {
+      if (!bootActive) return;
+      if (characters < command.length) {
+        lastBootValue = command.slice(0, ++characters);
+        input.value = lastBootValue;
+        bootTimer = setTimeout(typeNext, 135);
+      } else {
+        bootActive = false;
+        execute(command, { remember: false });
+      }
+    };
+    bootTimer = setTimeout(typeNext, 650);
+  }
 })();
