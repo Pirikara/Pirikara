@@ -1,26 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="328" viewBox="0 0 960 328" role="img" aria-labelledby="title description">
-  <title id="title">Pirikara terminal</title>
-  <desc id="description">A terminal window introducing Tomoya Yamashita, a security engineer and bug bounty hunter in Japan.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="545" viewBox="0 0 940 545" role="img" aria-labelledby="title description">
+  <title id="title">Pirikara interactive terminal preview</title>
+  <desc id="description">A terminal session showing Tomoya Yamashita's security research profile, command menu, and public advisories. The image links to an interactive portfolio.</desc>
+  <rect x="1" y="1" width="938" height="543" rx="14" fill="#0d1410" stroke="#38513b" stroke-width="2"/>
+  <path d="M15 1h910a14 14 0 0 1 14 14v40H1V15A14 14 0 0 1 15 1Z" fill="#152019"/>
+  <path d="M1 55h938" stroke="#304534"/>
+  <circle cx="29" cy="28" r="6" fill="#d88476"/>
+  <circle cx="50" cy="28" r="6" fill="#d7b668"/>
+  <circle cx="71" cy="28" r="6" fill="#91bf7a"/>
+  <text x="470" y="34" fill="#a8b8aa" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" text-anchor="middle">pirikara@portfolio: ~</text>
+  <circle cx="810" cy="28" r="4" fill="#d6fa83"/>
+  <text x="821" y="32" fill="#7e957f" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">SESSION ACTIVE</text>
 
-  <rect x="1" y="1" width="958" height="326" rx="18" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
-  <path d="M19 1h922a18 18 0 0 1 18 18v40H1V19A18 18 0 0 1 19 1Z" fill="#161b22"/>
-  <path d="M1 59h958" stroke="#30363d"/>
+  <text x="38" y="93" fill="#a6c967" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">[ OK ]</text>
+  <text x="102" y="93" fill="#819884" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">secure shell initialized</text>
+  <text x="38" y="119" fill="#a6c967" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">[ OK ]</text>
+  <text x="102" y="119" fill="#819884" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">public research index loaded</text>
 
-  <circle cx="31" cy="30" r="7" fill="#ff5f57"/>
-  <circle cx="55" cy="30" r="7" fill="#febc2e"/>
-  <circle cx="79" cy="30" r="7" fill="#28c840"/>
-  <text x="480" y="36" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" text-anchor="middle">pirikara@github: ~</text>
+  <text x="38" y="167" fill="#d6fa83" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">pirikara@portfolio:~$</text>
+  <text x="269" y="167" fill="#edf2e8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">whoami</text>
+  <text x="38" y="216" fill="#edf2e8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="35" font-weight="700">Tomoya Yamashita</text>
+  <text x="40" y="246" fill="#a6c967" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">Security Engineer  /  Bug Bounty Hunter  /  Japan</text>
 
-  <text x="42" y="110" fill="#3fb950" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" font-weight="700">$</text>
-  <text x="68" y="110" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">whoami</text>
+  <path d="M38 272h864" stroke="#26352b"/>
 
-  <text x="42" y="160" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="39" font-weight="700">Tomoya Yamashita</text>
-  <text x="44" y="194" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19">Security Engineer  /  Bug Bounty Hunter</text>
+  <text x="38" y="310" fill="#d6fa83" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">pirikara@portfolio:~$</text>
+  <text x="269" y="310" fill="#edf2e8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">ls</text>
+  <text x="40" y="342" fill="#bdcdbb" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">about.txt</text>
+  <text x="174" y="342" fill="#9acddd" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">disclosures/</text>
+  <text x="361" y="342" fill="#9acddd" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">projects/</text>
+  <text x="503" y="342" fill="#9acddd" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">links/</text>
 
-  <path d="M42 215h876" stroke="#30363d"/>
+  <text x="38" y="389" fill="#d6fa83" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">pirikara@portfolio:~$</text>
+  <text x="269" y="389" fill="#edf2e8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">disclosures</text>
+  <text x="40" y="424" fill="#edf2e8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">Rack</text>
+  <text x="300" y="424" fill="#9acddd" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">CVE-2025-61919</text>
+  <text x="40" y="453" fill="#edf2e8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">Rails Active Storage</text>
+  <text x="300" y="453" fill="#9acddd" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">CVE-2026-33174</text>
+  <text x="40" y="480" fill="#718774" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">+ 2 more findings  ·  type help to explore</text>
 
-  <text x="42" y="255" fill="#3fb950" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19" font-weight="700">$</text>
-  <text x="68" y="255" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19">cat focus.txt</text>
-  <text x="44" y="291" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">vulnerability research  ·  application security  ·  security tooling</text>
-  <rect x="769" y="277" width="10" height="18" fill="#3fb950"/>
+  <path d="M38 498h864" stroke="#26352b"/>
+  <text x="38" y="523" fill="#d6fa83" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">pirikara@portfolio:~$</text>
+  <rect x="258" y="508" width="10" height="18" fill="#d6fa83"/>
+  <text x="901" y="523" fill="#a6c967" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" text-anchor="end">CLICK TO ENTER ↗</text>
 </svg>

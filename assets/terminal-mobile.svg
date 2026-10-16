@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="534" viewBox="0 0 420 534" role="img" aria-labelledby="title description">
+  <title id="title">Pirikara interactive terminal preview</title>
+  <desc id="description">A compact terminal session introducing Tomoya Yamashita and linking to his interactive portfolio.</desc>
+  <rect x="1" y="1" width="418" height="532" rx="12" fill="#0d1410" stroke="#38513b" stroke-width="2"/>
+  <path d="M13 1h394a12 12 0 0 1 12 12v35H1V13A12 12 0 0 1 13 1Z" fill="#152019"/>
+  <path d="M1 48h418" stroke="#304534"/>
+  <circle cx="22" cy="25" r="5" fill="#d88476"/>
+  <circle cx="39" cy="25" r="5" fill="#d7b668"/>
+  <circle cx="56" cy="25" r="5" fill="#91bf7a"/>
+  <text x="210" y="30" fill="#a8b8aa" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" text-anchor="middle">pirikara@portfolio: ~</text>
+
+  <text x="20" y="81" fill="#a6c967" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">[ OK ]</text>
+  <text x="76" y="81" fill="#819884" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">secure shell initialized</text>
+
+  <text x="20" y="126" fill="#d6fa83" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">pirikara@portfolio:~$</text>
+  <text x="235" y="126" fill="#edf2e8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">whoami</text>
+  <text x="20" y="167" fill="#edf2e8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="28" font-weight="700">Tomoya Yamashita</text>
+  <text x="21" y="194" fill="#a6c967" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">Security Engineer / Bug Bounty Hunter</text>
+  <text x="21" y="216" fill="#9ba99d" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">Japan</text>
+
+  <path d="M20 239h380" stroke="#26352b"/>
+  <text x="20" y="276" fill="#d6fa83" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">pirikara@portfolio:~$</text>
+  <text x="235" y="276" fill="#edf2e8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">ls</text>
+  <text x="21" y="306" fill="#bdcdbb" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">about.txt</text>
+  <text x="146" y="306" fill="#9acddd" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">disclosures/</text>
+  <text x="21" y="331" fill="#9acddd" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">projects/</text>
+  <text x="146" y="331" fill="#9acddd" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">links/</text>
+
+  <text x="20" y="378" fill="#d6fa83" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">pirikara@portfolio:~$</text>
+  <text x="235" y="378" fill="#edf2e8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">help</text>
+  <text x="21" y="409" fill="#edf2e8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">disclosures</text>
+  <text x="163" y="409" fill="#819884" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">public reports</text>
+  <text x="21" y="434" fill="#edf2e8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">projects</text>
+  <text x="163" y="434" fill="#819884" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">open source work</text>
+
+  <path d="M20 461h380" stroke="#26352b"/>
+  <text x="20" y="492" fill="#d6fa83" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">pirikara@portfolio:~$</text>
+  <rect x="235" y="477" width="9" height="17" fill="#d6fa83"/>
+  <text x="400" y="518" fill="#a6c967" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" text-anchor="end">TAP TO ENTER ↗</text>
+</svg>
