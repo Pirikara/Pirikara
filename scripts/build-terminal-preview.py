@@ -19,15 +19,13 @@ SVG_NS = "http://www.w3.org/2000/svg"
 ET.register_namespace("", SVG_NS)
 FONT = "ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace"
 PALETTE = {
-    "bg": "#0b110d",
-    "bar": "#162118",
-    "border": "#3b523c",
-    "rule": "#26362a",
-    "text": "#edf3e9",
-    "accent": "#d2f48a",
-    "muted": "#a0b0a1",
-    "dim": "#78907c",
-    "blue": "#a7d4df",
+    "bg": "#101216",
+    "bar": "#1a1d22",
+    "border": "#39414b",
+    "rule": "#2b3139",
+    "text": "#eaedf0",
+    "accent": "#aabfd0",
+    "muted": "#a9b0b8",
 }
 ADVISORIES = [
     ("Rack", "CVE-2025-61919", "URL-encoded body parsing DoS"),
@@ -90,9 +88,9 @@ def shell(width: int, height: int) -> list[str]:
         f'<path d="M14 1H{width - 14}A13 13 0 0 1 {width - 1} 14V44H1V14'
         f'A13 13 0 0 1 14 1Z" fill="{PALETTE["bar"]}"/>',
         f'<path d="M1 44H{width - 1}" stroke="{PALETTE["rule"]}"/>',
-        '<circle cx="23" cy="23" r="5" fill="#d88476"/>',
-        '<circle cx="41" cy="23" r="5" fill="#d7b668"/>',
-        '<circle cx="59" cy="23" r="5" fill="#91bf7a"/>',
+        '<circle cx="23" cy="23" r="5" fill="#86919c"/>',
+        '<circle cx="41" cy="23" r="5" fill="#6f7a85"/>',
+        '<circle cx="59" cy="23" r="5" fill="#59646f"/>',
         text(width // 2, 28, "pirikara@github: ~", size=12, color="muted", anchor="middle"),
     ]
 
@@ -101,11 +99,9 @@ def desktop() -> str:
     width, height = 860, 508
     items = shell(width, height)
     items += [
-        '<circle cx="740" cy="22" r="4" fill="#d2f48a"/>',
-        text(754, 27, "PUBLIC INDEX", size=10, color="dim"),
         prompt(79, "cat profile.txt"),
         text(26, 115, "Pirikara / Tomoya Yamashita", size=20, weight=700),
-        text(27, 139, "SECURITY ENGINEER  ·  BUG BOUNTY HUNTER  ·  JAPAN", size=12, color="accent"),
+        text(27, 139, "SECURITY ENGINEER  ·  BUG BOUNTY HUNTER  ·  JAPAN", size=12, color="muted"),
         text(27, 163, "Web application and OSS vulnerability research · security tooling", color="muted"),
         text(27, 183, "Investigating parsers, file handling and access boundaries", color="muted"),
         rule(200, width),
@@ -114,7 +110,7 @@ def desktop() -> str:
     for y, (name, cve, detail) in zip((255, 283, 311, 339), ADVISORIES):
         items += [
             text(30, y, name, size=15),
-            text(235, y, cve, size=14, color="blue"),
+            text(235, y, cve, size=14, color="accent"),
             text(405, y, detail, size=14, color="muted"),
         ]
     items += [rule(357, width), prompt(384, "ls projects/")]
@@ -135,7 +131,7 @@ def mobile() -> str:
     items += [
         prompt(75, "cat profile.txt", mobile=True),
         text(20, 108, "Pirikara / Tomoya Yamashita", size=18, weight=700),
-        text(20, 132, "Security engineer · Bug bounty hunter · Japan", size=12, color="accent"),
+        text(20, 132, "Security engineer · Bug bounty hunter · Japan", size=12, color="muted"),
         text(20, 156, "Web application + OSS vulnerability research", size=13, color="muted"),
         text(20, 176, "Security tooling · responsible disclosure", size=13, color="muted"),
         rule(194, width),
@@ -144,7 +140,7 @@ def mobile() -> str:
     for y, (name, cve, detail) in zip((250, 298, 346, 394), ADVISORIES):
         items += [
             text(20, y, name, size=14),
-            text(208, y, cve, size=13, color="blue"),
+            text(208, y, cve, size=13, color="accent"),
             text(20, y + 20, detail, size=12, color="muted"),
         ]
     items += [rule(432, width), prompt(458, "ls projects/", mobile=True)]

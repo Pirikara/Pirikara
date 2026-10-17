@@ -1,41 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="508" viewBox="0 0 860 508" role="img" aria-labelledby="title description">
 <title id="title">Pirikara security research terminal</title>
 <desc id="description">Security engineer profile, four public disclosures, and two security projects in a compact terminal.</desc>
-<rect x="1" y="1" width="858" height="506" rx="12" fill="#0b110d"/>
-<path d="M14 1H846A13 13 0 0 1 859 14V44H1V14A13 13 0 0 1 14 1Z" fill="#162118"/>
-<path d="M1 44H859" stroke="#26362a"/>
-<circle cx="23" cy="23" r="5" fill="#d88476"/>
-<circle cx="41" cy="23" r="5" fill="#d7b668"/>
-<circle cx="59" cy="23" r="5" fill="#91bf7a"/>
-<text x="430" y="28" fill="#a0b0a1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="12" text-anchor="middle">pirikara@github: ~</text>
-<circle cx="740" cy="22" r="4" fill="#d2f48a"/>
-<text x="754" y="27" fill="#78907c" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="10">PUBLIC INDEX</text>
-<text x="26" y="79" fill="#d2f48a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">pirikara@github:~$</text><text x="214" y="79" fill="#edf3e9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">cat profile.txt</text>
-<text x="26" y="115" fill="#edf3e9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="20" font-weight="700">Pirikara / Tomoya Yamashita</text>
-<text x="27" y="139" fill="#d2f48a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="12">SECURITY ENGINEER  ·  BUG BOUNTY HUNTER  ·  JAPAN</text>
-<text x="27" y="163" fill="#a0b0a1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">Web application and OSS vulnerability research · security tooling</text>
-<text x="27" y="183" fill="#a0b0a1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">Investigating parsers, file handling and access boundaries</text>
-<path d="M26 200H834" stroke="#26362a"/>
-<text x="26" y="226" fill="#d2f48a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">pirikara@github:~$</text><text x="214" y="226" fill="#edf3e9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">ls disclosures/</text>
-<text x="30" y="255" fill="#edf3e9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="15">Rack</text>
-<text x="235" y="255" fill="#a7d4df" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">CVE-2025-61919</text>
-<text x="405" y="255" fill="#a0b0a1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">URL-encoded body parsing DoS</text>
-<text x="30" y="283" fill="#edf3e9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="15">Rails Active Storage</text>
-<text x="235" y="283" fill="#a7d4df" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">CVE-2026-33174</text>
-<text x="405" y="283" fill="#a0b0a1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">Range request DoS</text>
-<text x="30" y="311" fill="#edf3e9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="15">Puma</text>
-<text x="235" y="311" fill="#a7d4df" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">CVE-2026-47736</text>
-<text x="405" y="311" fill="#a0b0a1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">PROXY parser memory exhaustion</text>
-<text x="30" y="339" fill="#edf3e9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="15">Nextcloud</text>
-<text x="235" y="339" fill="#a7d4df" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">CVE-2026-45157</text>
-<text x="405" y="339" fill="#a0b0a1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">Temporary upload file access</text>
-<path d="M26 357H834" stroke="#26362a"/>
-<text x="26" y="384" fill="#d2f48a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">pirikara@github:~$</text><text x="214" y="384" fill="#edf3e9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">ls projects/</text>
-<text x="30" y="414" fill="#edf3e9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="15">vuln-chaser-core</text>
-<text x="235" y="414" fill="#a0b0a1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">IAST + LLM runtime trace analysis</text>
-<text x="30" y="442" fill="#edf3e9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="15">caseforge</text>
-<text x="235" y="442" fill="#a0b0a1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">OpenAPI test scenario generation</text>
-<path d="M26 460H834" stroke="#26362a"/>
-<text x="26" y="487" fill="#d2f48a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">pirikara@github:~$</text><text x="214" y="487" fill="#edf3e9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14" id="demo-command">help</text><rect id="demo-cursor" x="250" y="475" width="8" height="16" fill="#d2f48a"/>
-<rect x="1" y="1" width="858" height="506" rx="12" fill="none" stroke="#3b523c" stroke-width="2"/>
+<rect x="1" y="1" width="858" height="506" rx="12" fill="#101216"/>
+<path d="M14 1H846A13 13 0 0 1 859 14V44H1V14A13 13 0 0 1 14 1Z" fill="#1a1d22"/>
+<path d="M1 44H859" stroke="#2b3139"/>
+<circle cx="23" cy="23" r="5" fill="#86919c"/>
+<circle cx="41" cy="23" r="5" fill="#6f7a85"/>
+<circle cx="59" cy="23" r="5" fill="#59646f"/>
+<text x="430" y="28" fill="#a9b0b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="12" text-anchor="middle">pirikara@github: ~</text>
+<text x="26" y="79" fill="#aabfd0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">pirikara@github:~$</text><text x="214" y="79" fill="#eaedf0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">cat profile.txt</text>
+<text x="26" y="115" fill="#eaedf0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="20" font-weight="700">Pirikara / Tomoya Yamashita</text>
+<text x="27" y="139" fill="#a9b0b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="12">SECURITY ENGINEER  ·  BUG BOUNTY HUNTER  ·  JAPAN</text>
+<text x="27" y="163" fill="#a9b0b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">Web application and OSS vulnerability research · security tooling</text>
+<text x="27" y="183" fill="#a9b0b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">Investigating parsers, file handling and access boundaries</text>
+<path d="M26 200H834" stroke="#2b3139"/>
+<text x="26" y="226" fill="#aabfd0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">pirikara@github:~$</text><text x="214" y="226" fill="#eaedf0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">ls disclosures/</text>
+<text x="30" y="255" fill="#eaedf0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="15">Rack</text>
+<text x="235" y="255" fill="#aabfd0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">CVE-2025-61919</text>
+<text x="405" y="255" fill="#a9b0b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">URL-encoded body parsing DoS</text>
+<text x="30" y="283" fill="#eaedf0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="15">Rails Active Storage</text>
+<text x="235" y="283" fill="#aabfd0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">CVE-2026-33174</text>
+<text x="405" y="283" fill="#a9b0b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">Range request DoS</text>
+<text x="30" y="311" fill="#eaedf0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="15">Puma</text>
+<text x="235" y="311" fill="#aabfd0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">CVE-2026-47736</text>
+<text x="405" y="311" fill="#a9b0b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">PROXY parser memory exhaustion</text>
+<text x="30" y="339" fill="#eaedf0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="15">Nextcloud</text>
+<text x="235" y="339" fill="#aabfd0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">CVE-2026-45157</text>
+<text x="405" y="339" fill="#a9b0b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">Temporary upload file access</text>
+<path d="M26 357H834" stroke="#2b3139"/>
+<text x="26" y="384" fill="#aabfd0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">pirikara@github:~$</text><text x="214" y="384" fill="#eaedf0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">ls projects/</text>
+<text x="30" y="414" fill="#eaedf0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="15">vuln-chaser-core</text>
+<text x="235" y="414" fill="#a9b0b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">IAST + LLM runtime trace analysis</text>
+<text x="30" y="442" fill="#eaedf0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="15">caseforge</text>
+<text x="235" y="442" fill="#a9b0b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">OpenAPI test scenario generation</text>
+<path d="M26 460H834" stroke="#2b3139"/>
+<text x="26" y="487" fill="#aabfd0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14">pirikara@github:~$</text><text x="214" y="487" fill="#eaedf0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="14" id="demo-command">help</text><rect id="demo-cursor" x="250" y="475" width="8" height="16" fill="#aabfd0"/>
+<rect x="1" y="1" width="858" height="506" rx="12" fill="none" stroke="#39414b" stroke-width="2"/>
 </svg>
